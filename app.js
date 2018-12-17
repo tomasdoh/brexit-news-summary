@@ -18,8 +18,9 @@ const url = `https://content.guardianapis.com/search?api-key=${GUARDIAN_API_KEY}
       let articles = data.response.results;
       articles.forEach(function(article) {
         let headline = article.webTitle;
+        let artUrl = article.webUrl
         let para = createNode('p');
-        para.innerHTML = headline;
+        para.innerHTML = '<a href="'+ artUrl + '">'+ headline + '</a>';
         append(document.body, para);
       })
     })
