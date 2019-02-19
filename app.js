@@ -7,7 +7,7 @@ function append(parent, el) {
   return parent.appendChild(el); // Append the second parameter(element) to the first one
 }
 
-const url = `https://content.guardianapis.com/search?api-key=${GUARDIAN_API_KEY}`;
+const url = `https://content.guardianapis.com/search?q=brexit&api-key=${GUARDIAN_API_KEY}`;
 
   fetch(url)
     .then(function(response) {
