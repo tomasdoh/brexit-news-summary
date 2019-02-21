@@ -1,0 +1,24 @@
+{
+  "name": "brexit-news-summary",
+  "version": "1.0.0",
+  "description": "Summarises the latest on Brexit from The Guardian",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasdoh/brexit-news-summary.git"
+  },
+  "keywords": [
+    "brexit",
+    "news",
+    "guardian"
+  ],
+  "author": "Tomas Doherty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasdoh/brexit-news-summary/issues"
+  },
+  "homepage": "https://github.com/tomasdoh/brexit-news-summary#readme"
+}
